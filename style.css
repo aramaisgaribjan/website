@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
 * {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
 
 body {
-  background-color: rgb(201, 197, 197);
+  background-color: rgb(188, 185, 185);
   padding-left: 10px;
 }
 .contact {
@@ -16,4 +18,7 @@ body {
   font-size: 20px;
   margin-bottom: 10px;
   color: black;
+}
+.cv {
+  padding-bottom: 5px;
 }
