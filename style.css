@@ -3,17 +3,16 @@
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 body {
     background-color: rgb(238, 235, 235);
-    padding-left: 10px;
 }
 .kasten {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
+    align-items: center;
 }
 .innenkasten {
     margin-bottom: 15px;
@@ -22,8 +21,7 @@ body {
     width: 550px;
 }
 .inhalt {
-    text-align: start;
-    margin-left: 10px;
+    text-align: center;
     padding-top: 10px;
 }
 .pictures {
@@ -33,9 +31,10 @@ body {
     color: grey;
 }
 .contact {
+    box-sizing: border-box;
     border: 2px solid rgb(14, 13, 13);
     width: 550px;
-    padding-left: 10px;
+    margin: auto;
 }
 .menu {
     font-size: 20px;
@@ -44,4 +43,11 @@ body {
 }
 .cv {
     padding-bottom: 5px;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    padding: 0px;
+    list-style-position: inside;
 }
