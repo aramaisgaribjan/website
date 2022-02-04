@@ -3,11 +3,14 @@
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    text-align: center;
 }
 
 body {
     background-color: rgb(238, 235, 235);
+    text-align: center;
+}
+.container {
+    text-align: center;
 }
 .kasten {
     display: flex;
@@ -36,6 +39,11 @@ body {
     width: 550px;
     margin: auto;
 }
+.biography {
+    box-sizing: border-box;
+    width: 550px;
+    margin: auto;
+}
 .menu {
     font-size: 20px;
     margin-bottom: 10px;
@@ -47,7 +55,18 @@ body {
 ul {
     display: flex;
     flex-direction: column;
-    align-content: flex-start;
     padding: 0px;
     list-style-position: inside;
+    text-align: left;
+    width: max-content;
+    margin: auto;
+}
+.footerline {
+    margin-top: 25px;
+}
+footer {
+    display: flex;
+    width: 550px;
+    margin: auto;
+    justify-content: space-around;
 }
