@@ -39,7 +39,7 @@ nav ul li a {
     margin: auto;
     width: 1150px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 h1 {
     color: #fff;
@@ -51,4 +51,17 @@ p {
     font-family: 'Roboto', sans-serif;
     color: #fff;
     font-size: 20px;
+}
+.catchPictures {
+    background-color: #ffffff;
+    border: 0px solid rgb(255, 255, 255);
+    margin: auto;
+    padding: 1px;
+    max-width: 906px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+img {
+    margin: 1px;
 }
